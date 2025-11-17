@@ -91,38 +91,6 @@ make
 ./TaskList clear
 ```
 
-## Project Structure
-
-```
-TaskList/
-├── src/
-│   ├── BaseTask.hpp      # Abstract base class for tasks
-│   ├── Task.cpp          # Concrete task implementation
-│   ├── Task.hpp
-│   ├── TaskList.cpp      # Main task management logic
-│   ├── TaskList.hpp
-│   ├── Logger.cpp        # Logging functionality
-│   ├── Logger.hpp
-│   ├── TUI.cpp          # Text User Interface
-│   ├── TUI.hpp
-│   └── main.cpp         # Entry point
-├── CMakeLists.txt       # Build configuration
-├── .gitignore
-└── README.md
-```
-
-## Contributing
-
-Feel free to contribute to this project by:
-
-1. Forking the repository
-2. Creating a new branch for your feature
-3. Submitting a pull request
-
-## License
-
-This project is open source and available under the MIT License.
-
 ## Author
 
 [xOphiuchus](https://github.com/xOphiuchus)
